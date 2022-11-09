@@ -56,21 +56,6 @@
     color: #FFF;
 }
 
-nav {
-    margin-top: 180px;
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-
-main {
-    max-width: 1080px;
-}
-
-
 
 h1 {
     font-size: 28px;
@@ -97,10 +82,7 @@ section {
         display: block;
         margin: 0 auto 10px;
     }
-
-    nav span {
-        display: none;
-    }
+    
 }
 
 .footer-distributed {
@@ -269,7 +251,7 @@ section {
 }
 
 nav {
-    margin-top: 180px;
+    margin-top: 18px;
     list-style-type: none;
     display: flex;
     width: 100%;
@@ -284,6 +266,7 @@ main {
 
 nav li {
     padding: 10px 20px;
+    margin-right: 5px;
 }
 
 nav li.active {
@@ -291,9 +274,7 @@ nav li.active {
     color: white;
 }
 
-nav i {
-    margin-right: 5px;
-}
+
 
 nav li a {
     color: inherit;
